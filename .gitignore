@@ -1,0 +1,18 @@
+# Datasets (download separately; see README)
+data/
+
+# Training artifacts
+checkpoints/
+logs/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

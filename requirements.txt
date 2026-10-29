@@ -1,0 +1,21 @@
+# Core deep-learning stack.
+# Install the matching PyG extension wheels from https://data.pyg.org/whl/
+# before running `pip install -r requirements.txt` (see README).
+torch==2.2.1
+torch_geometric==2.5.3
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-cluster==1.6.3
+torch-spline-conv==1.2.2
+
+# Scientific computing
+numpy==1.26.3
+scipy==1.11.4
+scikit-learn==1.4.0
+networkx==3.1
+
+# Graph datasets and utilities
+ogb==1.3.6
+faiss-cpu==1.7.4
+tqdm==4.66.1
+psutil==5.9.8
